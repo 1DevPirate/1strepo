@@ -1,0 +1,5 @@
+cd ~/
+ls -al
+touch my_command_history.txt
+cp history
+scp my_command_history choni@10.211.55.6:/tmp
