@@ -1,0 +1,12 @@
+#!/bin/bash
+# Ask the user for their name
+
+echo Hello, who am I talking to?
+
+read varname
+
+echo It\'s nice to meet you $varname
+
+sudo apt install mysql-server
+sudo apt install apache2
+sudo apt install postgresql
